@@ -1,0 +1,301 @@
+/*parte 1 da pagina*/ 
+.img-fundo {
+    background-image: url("../img/trena.png");
+    height: 800px;
+}
+
+
+.img-logo {
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.img-logo img {
+    width: 50px;
+}
+
+#botao {
+    padding-left: 100px;
+    border-radius: 0px;
+    width: 100px;
+    padding: 50px 100px;
+}
+
+#descricao {
+    display: flex;
+    padding-left: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+#descricao2 {
+    display: flex;
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+button  {
+    background-color: yellow;
+    padding: 20px 100px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+/* parte 2 */
+#container{
+    background-color: #292929;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1500px;
+}
+#sobre{
+    display: flex;
+    padding-top: 0px;
+}
+
+#sobre img{
+    height: 800px;
+    width: 700px;
+}
+
+#sobre h1 {
+    color: white;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 40px;
+  
+}
+
+
+
+#sobre h4{
+    color:#F6B800;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sobre p{
+    color:white;
+    text-align: justify;
+    margin-left: 80px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #F6B800;
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+    
+}
+
+nav a {
+    color: #292929;
+    text-decoration: none;
+    padding: 2px 15px 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: #292929;
+    font-weight: bold
+}
+/* parte 3 */
+body {
+    background-color: #292929;
+}
+
+#descricao3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+#descricao3 p {
+    width: 48%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.sla h1 {
+    color: #F6B800;
+    font-size: 35px;
+}
+
+.sla h2 {
+     color: #F6B800;
+}
+/*parte 4 */
+.destaques-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+
+.destaques-produtos img {
+    width: 100%;
+}
+
+
+.destaques {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.destaques-produtos p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: white;
+    
+}
+
+#container h1 {
+    color: white;
+    
+}
+
+#divisao {
+    display: flex;
+    justify-content: space-around;
+}
+
+#divisao img {
+    width: 75px;
+}
+
+#divisao div {
+    width: 30%;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafo-1 {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.paragrafo-2 {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.paragrafo-3 {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.resposta-1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resposta-2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resposta-3 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+/*parte 5*/ 
+body {
+    background-color: white;
+}
+#detalhamento {
+    display: flex;
+    
+    
+}
+
+.detalhes h1 {
+     color: black;
+}
+
+#deta1{
+    color: black;
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#deta2{
+    color:  black;
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+
+#deta3{
+    color: black;
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+
+#contato {
+    display: flex;
+}
+
+.cima {
+    background-image: url("../img/funcionarios.jpg");
+    height: 800px;
+}
+
+#detalhamento {
+    background-color: darksalmon;
+}
+
